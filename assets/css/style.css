@@ -1,0 +1,43 @@
+.page_login {
+    text-align: center;
+	margin-top: 3%;
+}
+input[type="submit"] {
+    width: 368px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background: #472f92;
+    border: none;
+	color: #fff;
+    font-size: 16px;
+}
+.logo {
+    margin-bottom: 2%;
+}
+input.user-id {
+    padding: 8px 10px;
+	border-radius: 3px;
+	border: 1px solid #c4c4c4;
+}
+input.pass {
+    padding: 8px 10px;
+	border-radius: 3px;
+	border: 1px solid #c4c4c4;
+}
+input.user-id:focus {
+        outline: none;
+}
+input.pass:focus {
+        outline: none;
+}
+@media (max-width:420px){
+input.user-id {
+    max-width: 269px;
+}
+input.pass {
+    max-width: 269px;
+}
+input[type="submit"] {	
+    max-width: 269px;
+}
+}

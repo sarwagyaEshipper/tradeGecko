@@ -1,0 +1,543 @@
+body {
+    margin:0;
+    padding:0;
+    background: #e9e9e9;
+}
+* {
+    margin:0;
+    padding:0;
+}
+a, a:hover {
+    text-decoration:none;
+    transition: ease 0.5s;
+}
+
+
+
+
+section.head_banner {
+    background: url(../images/shopify-background.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0 0;
+    position: relative;
+}
+.head_content {
+    display: flex;
+    display: -webkit-flex;
+}
+.heading_content {
+    text-align: center;
+    width: 90%;
+    color: #472f92;
+    font-weight: bold;
+    margin: 0;
+    font-size: 44px;
+}
+
+.head_simble {
+    color: #ec1846;
+}
+.logo_sec img {
+    height: 80px;
+}
+.wrapper_div {
+    width: 60%;
+    margin: auto;
+}
+.detail_box p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.detail_box p:first-child {
+    margin-bottom: 20px;
+}
+.detail_box {
+    background: #fff;
+    border-radius: 5px;
+    padding: 40px 50px;
+    box-shadow: 1px 3px 5px #00000078;
+}
+.quick_content {
+    display: flex;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.quick_guide_sec {
+    background: #3eb4c1;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 30px 50px;
+    box-shadow: 1px 3px 5px #00000078;
+}
+.quick_content h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 24px;
+}
+.quick_content img {
+    height: 60px;
+}   
+.info_para p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.info_para p span {
+    color: #ec1846;
+    margin-right: 5px;
+}
+.wrapper_div {
+    width: 42%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 220px;
+}
+.quick_content h3 span {
+     color: #ec1846;
+}
+.manage_div {
+    margin: 30px 0 30px;
+}
+.setting_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.setting_btn .manage_btn {
+    background: #2fb5c0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 260px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    
+}
+.setting_btn .learn_more {
+    background: #2fb5c0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+}
+.setting_btn .manage_btn img {
+    height: 32px;
+}
+.setting_btn .learn_more img{
+    height: 32px;
+}
+
+
+
+/*==================   NewCustomerSignUp CSS START HERE    =======================*/
+.customer_sign_up {
+    background: #fff;
+}
+section.sign_up_sec {
+    padding: 50px 0;
+}
+.new_customer {
+    width: 50%;
+    margin: auto;
+}
+.sign_up_content {
+    background: #2fb5c0;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.sign_up_content h3 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sign_up_detail {
+    border: 3px solid #2fb5c0;
+    padding: 10px 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.detail_content h4 {
+    border-bottom: 2px solid #2fb5c0;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.input_field_detail .input-group-addon {
+    background: #2fb5c0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #2fb5c0;
+}
+.input_field_detail .input-group-addon {
+    background: #2fb5c0;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    border: 1px solid #2fb5c0;
+    padding: 0;
+    margin-left: 6px;
+    position: absolute;
+    z-index: 9;
+    padding-top: 8px;
+}
+.input_field_detail {
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    margin-bottom: 25px;
+}
+.sign_up_detail form.form_detail .form_field .input_field_detail input {
+    border: 2px solid #9e9e9e;
+    border-radius: 50px !important;
+    height: 44px;
+    padding-left: 44px;
+}
+.sign_up_detail form.form_detail .form_field .input_field_detail select {
+    border: 2px solid #9e9e9e;
+    border-radius: 50px !important;
+    height: 44px;
+    padding-left: 12px;
+    padding-right: 15px;
+}
+.form_field label.control-label {
+    margin-bottom: 8px;
+    color: #3b3f48;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.form_field label.control-label .required {
+    color: #f0466a;
+    font-weight: 600;
+    font-size: 18px;
+}
+form.form_detail {
+    margin-bottom: 30px;
+}
+.sign_up_detail form.form_detail .form_field .information_field input {
+    padding-left: 12px;
+}
+.form_field.row {
+    margin-bottom: 0px;
+}
+
+.form_checked .form_checkbox_field {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form_checked label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form_checked label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #9e9e9e;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 11px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.form_checked .checked_text {
+    color: #3b3f48;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+.form_checked {
+    margin-top: 10px;
+}
+.form_checked .form_checkbox_field:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 7px;
+    height: 13px;
+    border: solid #9e9e9e;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.sign_btn_sec {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+}
+.sign_btn_sec .sign_up_btn {
+    background: #2fb5c0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 190px;
+    padding: 11px;
+}
+.sign_btn_sec .sign_up_btn:focus {
+    border: none;
+    outline: none;
+}
+.sign_btn_sec .reset_btn {
+    background: #9e9e9e;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 170px;
+    padding: 11px;
+}
+.sign_btn_sec .reset_btn:focus {
+    border: none;
+    outline: none;
+
+}
+
+#tc-check{
+    color:#ff0000;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+#tc-check p {
+    margin-top: 10px;
+}
+ul#eshippersErrMsg {
+    margin-top: 20px;
+}
+ul#eshippersErrMsg li {
+    color: #ff0000;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    list-style-type: circle;
+}
+div#form-loading {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.88);
+    z-index: 99;
+    cursor: pointer;
+    text-align: center;
+}
+.detail_box p{
+    font-size: 14px;
+}
+/*==================   NewCustomerSignUp CSS END HERE    =======================*/
+
+
+/*  media css start  here  */
+
+
+@media (max-width:1300px) {
+.setting_btn .manage_btn {
+    font-size: 16px;
+    width: 230px;
+}
+.setting_btn .learn_more {
+    width: 230px;
+}
+.head_content {
+    padding: 0 15px;
+}
+    
+}
+@media (max-width:1100px) {
+
+.wrapper_div {
+    width: 60%;
+}
+.new_customer {
+    width: 70%;
+}
+}
+
+@media (max-width:1024px) {
+.sign_btn_sec .sign_up_btn {
+    font-size: 18px;
+    width: 210px;
+    padding: 10px;
+}
+.sign_btn_sec .reset_btn {
+    font-size: 18px;
+    width: 180px;
+    padding: 10px;
+}
+
+}
+
+@media (max-width:991px) {
+.wrapper_div {
+    width: 70%;
+    top: 200px;
+}
+.heading_content {
+    width: 80%;
+    font-size: 34px;
+}
+.form_checked label:before {
+    margin-right: 8px;
+}
+.form_checked .checked_text {
+    color: #3b3f48;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+}
+@media (max-width:767px) {
+.logo_sec img {
+    height: 60px;
+    margin-right: 10px;
+}
+.wrapper_div {
+    width: 85%;
+}
+.heading_content {
+    width: 80%;
+    font-size: 22px;
+}
+.detail_box {
+    padding: 30px 30px;
+}
+.quick_guide_sec {
+    padding: 30px 30px;
+}
+.quick_content h3 {
+    font-size: 24px;
+}
+.info_para p {
+    font-size: 14px;
+}
+.detail_box p {
+    font-size: 14px;
+}
+.head_content {
+    align-items: center;
+    -webkit-align-items: center;
+}
+.quick_content {
+    margin-bottom: 15px;
+}
+
+/*  sign up page media css start here  */
+.new_customer {
+    width: 90%;
+}
+
+/*  sign up page media css end here */
+
+
+}
+@media (max-width:600px) { 
+.setting_btn .manage_btn {
+    font-size: 13px;
+    width: 175px;
+}
+.setting_btn .learn_more {
+    width: 175px;
+      font-size: 13px;
+}
+.setting_btn .manage_btn img {
+    height: 30px;
+}
+.setting_btn .learn_more img{
+    height: 30px;
+}
+.quick_content h3 {
+    font-size: 20px;
+}
+.quick_content img {
+    height: 40px;
+}
+
+}
+
+@media (max-width:425px) { 
+.setting_btn .manage_btn {
+    font-size: 10px;
+    width: 140px;
+}
+.setting_btn .learn_more {
+    width: 140px;
+      font-size: 10px;
+}
+.setting_btn .manage_btn img {
+    height: 20px;
+}
+.setting_btn .learn_more img{
+    height: 20px;
+}
+.wrapper_div {
+    width: 90%;
+}
+.setting_btn .manage_btn {
+    height: 40px;
+}
+.setting_btn .learn_more {
+    height: 40px;
+}
+
+}
+
+@media (max-width:375px) {
+.sign_btn_sec .sign_up_btn {
+    font-size: 12px;
+    width: 90px;
+}
+
+.sign_btn_sec .reset_btn {
+    font-size: 12px;
+    width: 90px;
+}
+}
